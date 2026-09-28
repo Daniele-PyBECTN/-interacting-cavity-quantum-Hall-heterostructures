@@ -1,0 +1,16 @@
+Packages:
+
+numpy
+scipy
+matplotlib
+dataclasses
+pathlib
+joblib
+multiprocessing
+kwant
+
+__future__
+typing
+json
+math
+datetime

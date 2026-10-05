@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-01T14:27:55",
+  "params": {
+    "Lx": 6000.0,
+    "Ly": 2000.0,
+    "Nx": 901,
+    "Ny": 601,
+    "use_elliptic_mask": false,
+    "eps_r": 13.0,
+    "n_donor": 0.002,
+    "n_target": 0.001,
+    "n_surf": 0.001,
+    "dS": 200,
+    "donor_margin_nm": 0.0,
+    "donor_smooth_nm": 0.0,
+    "donor_disorder_rms": 1.5e-09,
+    "donor_disorder_sigma_nm": 20.0,
+    "donor_disorder_seed": 1,
+    "dist_fixed": 400,
+    "use_partial_top_gate": true,
+    "x_gate_edge_nm": 4000.0,
+    "donor_extra_dist_nm": -90.0,
+    "B": 1.38,
+    "g_spin": 0.0,
+    "n_LL": 6,
+    "gamma_rel": 0.02,
+    "use_B_scaling": true,
+    "max_iter": 40000,
+    "mix": 0.003,
+    "tol": 7e-09,
+    "smooth_sigma_nm": 0.0,
+    "diagonal_cutoff_nm": null
+  },
+  "summary": {
+    "mu": 10.585408716174715,
+    "dist": 400,
+    "dx": 6.666666666666515,
+    "dy": 3.3333333333333712,
+    "average_density": 0.0010000000000001037,
+    "target_density": 0.001,
+    "center_filling": 4.600191406799642,
+    "nu_min": 0.0,
+    "nu_max": 4.886552540112392,
+    "converged_iterations_recorded": 238,
+    "final_dn": 6.965873822066493e-09
+  },
+  "resumed_from": "data_singlerun/sim_B_1.39_dist_400_xedge_4000.0_20261001_130452",
+  "parameter_overrides": {
+    "B": 1.38,
+    "dist_fixed": 400
+  }
+}

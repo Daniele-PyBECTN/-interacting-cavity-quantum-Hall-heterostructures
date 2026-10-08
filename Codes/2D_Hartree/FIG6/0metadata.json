@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-22T17:24:19",
+  "params": {
+    "Lx": 2000.0,
+    "Ly": 1000.0,
+    "Nx": 301,
+    "Ny": 151,
+    "use_elliptic_mask": false,
+    "eps_r": 13.0,
+    "n_donor": 0.0024,
+    "n_target": 0.001,
+    "n_surf": 0.0014,
+    "dS": 62,
+    "donor_margin_nm": 0.0,
+    "donor_smooth_nm": 0.0,
+    "donor_disorder_rms": 0.0,
+    "donor_disorder_sigma_nm": 20.0,
+    "donor_disorder_seed": 12345,
+    "dist_fixed": 1000000.0,
+    "use_partial_top_gate": true,
+    "x_gate_edge_nm": 350.0,
+    "donor_extra_dist_nm": -90.0,
+    "B": 0.7074993055730915,
+    "g_spin": 0.0,
+    "n_LL": 16,
+    "gamma_rel": 0.005,
+    "use_B_scaling": true,
+    "max_iter": 20000,
+    "mix": 0.002,
+    "tol": 1e-08,
+    "smooth_sigma_nm": 0.0,
+    "diagonal_cutoff_nm": null
+  },
+  "summary": {
+    "mu": 13.281525887477512,
+    "dist": 1000000.0,
+    "dx": 6.666666666666629,
+    "dy": 6.666666666666686,
+    "average_density": 0.0010000000000000005,
+    "target_density": 0.001,
+    "center_filling": 11.011517687188016,
+    "nu_min": 0.0,
+    "nu_max": 11.011517687188016,
+    "converged_iterations_recorded": 227,
+    "final_dn": 9.977376890694172e-09
+  },
+  "resumed_from": "data_sweep/sim_B_0.70601_dist_1000000.0_xedge_350.0_20260922_172348",
+  "parameter_overrides": {
+    "B": 0.7074993055730915,
+    "tol": 1e-08
+  }
+}
